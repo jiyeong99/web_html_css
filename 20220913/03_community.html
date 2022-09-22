@@ -1,0 +1,210 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Small Business - Template</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+  <link href="./movi_recom.css">
+</head>
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
+      <div class="container-fluid">
+      <a class="navbar-brand" href="#">
+        <img src="./img/logo.png" alt="Logo" width="70" height="50" class="d-inline-block align-text-top">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="./02_home.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./03_community.html">Community</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" data-bs-toggle="modal" data-bs-target="#exampleModal">Login</a>
+            </li>
+            </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+          <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                <form>
+                  <div class="mb-3">
+                    <label for="exampleInputEmail1" class="form-label">Email address</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                    <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                  </div>
+                  <div class="mb-3">
+                    <label for="exampleInputPassword1" class="form-label">Password</label>
+                    <input type="password" class="form-control" id="exampleInputPassword1">
+                  </div>
+                  <div class="mb-3 form-check">
+                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                    <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                  </div>
+                </form>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary">Submit</button>
+              </div>
+          </div>
+        </div>
+    </div>
+  </header>
+
+  <section>
+    <div class="container">
+        <h1 class="text-center my-5">Community</h1>
+        <div class="row">
+            <div class="col-lg-2 col-sm-12">
+                <ul class="list-group m-0">
+                    <li class="list-group-item"><a class="text-decoration-none fw-normal" href="#">Boxoffice</a></li>
+                    <li class="list-group-item"><a class="text-decoration-none fw-normal" href="#">Movies</a></li>
+                    <li class="list-group-item"><a class="text-decoration-none fw-normal" href="#">Genres</a></li>
+                    <li class="list-group-item"><a class="text-decoration-none fw-normal" href="#">Actors</a></li>
+                </ul>
+            </div>
+            <div class="d-none d-lg-block col-lg-10">
+              <table class="table m-0">
+                <thead>
+                  <tr>
+                    <th scope="col">영화제목</th>
+                    <th scope="col">글 제목</th>
+                    <th scope="col">작성자</th>
+                    <th scope="col">작성 시간</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th scope="row">Great Movie title</th>
+                    <td>Best Movie Ever</td>
+                    <td>user</td>
+                    <td>1 minute ago</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">Movie Test</th>
+                    <td>Best Movie Ever</td>
+                    <td>user</td>
+                    <td>1 minute ago</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">Movie Test</th>
+                    <td>Best Movie Ever</td>
+                    <td>user</td>
+                    <td>1 minute ago</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">Movie Test</th>
+                    <td>Best Movie Ever</td>
+                    <td>user</td>
+                    <td>1 minute ago</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">Movie Test</th>
+                    <td>Best Movie Ever</td>
+                    <td>user</td>
+                    <td>1 minute ago</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">Movie Test</th>
+                    <td>Best Movie Ever</td>
+                    <td>user</td>
+                    <td>1 minute ago</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="d-md-block d-lg-none col-sm-12 mt-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h3 class="card-title">Best Movie Ever</h3>
+                        <h4 class="card-subtitle mb-2 text-muted">Great Movie Title</h4>
+                        <p class="card-text">user</p>
+                        <p class="card-text">1 minute ago</p>
+                    </div>
+                </div>
+            </div>
+            <div class="d-md-block d-lg-none col-sm-12 mt-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h3 class="card-title">Movie Test</h3>
+                        <h4 class="card-subtitle mb-2 text-muted">Great Movie Title</h4>
+                        <p class="card-text">user</p>
+                        <p class="card-text">1 minute ago</p>
+                    </div>
+                </div>
+            </div>
+            <div class="d-md-block d-lg-none col-sm-12 mt-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h3 class="card-title">Movie Test</h3>
+                        <h4 class="card-subtitle mb-2 text-muted">Great Movie Title</h4>
+                        <p class="card-text">user</p>
+                        <p class="card-text">1 minute ago</p>
+                    </div>
+                </div>
+            </div>
+            <div class="d-md-block d-lg-none col-sm-12 mt-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h3 class="card-title">Movie Test</h3>
+                        <h4 class="card-subtitle mb-2 text-muted">Great Movie Title</h4>
+                        <p class="card-text">user</p>
+                        <p class="card-text">1 minute ago</p>
+                    </div>
+                </div>
+            </div>
+            <div class="d-md-block d-lg-none col-sm-12 mt-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h3 class="card-title">Movie Test</h3>
+                        <h4 class="card-subtitle mb-2 text-muted">Great Movie Title</h4>
+                        <p class="card-text">user</p>
+                        <p class="card-text">1 minute ago</p>
+                    </div>
+                </div>
+            </div>
+            <div class="d-md-block d-lg-none col-sm-12 mt-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h3 class="card-title">Movie Test</h3>
+                        <h4 class="card-subtitle mb-2 text-muted">Great Movie Title</h4>
+                        <p class="card-text">user</p>
+                        <p class="card-text">1 minute ago</p>
+                    </div>
+                </div>
+            </div>
+            
+    </div>
+</div>
+    <nav aria-label="Page navigation example">
+        <ul class="pagination justify-content-center mt-4">
+            <li class="page-item"><a class="page-link" href="#">Previous</a></li>
+            <li class="page-item"><a class="page-link" href="#">1</a></li>
+            <li class="page-item"><a class="page-link" href="#">2</a></li>
+            <li class="page-item"><a class="page-link" href="#">3</a></li>
+            <li class="page-item"><a class="page-link" href="#">Next</a></li>
+        </ul>
+    </nav>
+  </section>
+  <footer class="my-3">
+    <p class="text-center sticky-bottom">Web-bootstrap PJT, by KimJiyeong, KimSubin</p>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+    
+</body>
